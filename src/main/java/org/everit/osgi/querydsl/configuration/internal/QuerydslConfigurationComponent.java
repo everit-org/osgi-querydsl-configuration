@@ -51,7 +51,7 @@ import com.mysema.query.sql.Configuration;
 import com.mysema.query.sql.SQLTemplates;
 
 /**
- * Simple component that registers {@link QuerydslSupport} as an OSGi service.
+ * Simple component that registers Querydsl configuration as an OSGi service.
  */
 @Component(name = QuerydslConfigurationConstants.SERVICE_FACTORYPID_QUERYDSL_CONFIGURATION, metatype = true,
         configurationFactory = true, policy = ConfigurationPolicy.REQUIRE)
