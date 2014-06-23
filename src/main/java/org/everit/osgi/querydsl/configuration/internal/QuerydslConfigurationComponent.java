@@ -74,7 +74,7 @@ public class QuerydslConfigurationComponent {
         if (useLiteralsProp != null) {
             configuration.setUseLiterals(Boolean.valueOf(useLiteralsProp.toString()));
         }
-        Dictionary<String, Object> serviceProperties = new Hashtable<>(props);
+        Dictionary<String, Object> serviceProperties = new Hashtable<String, Object>(props);
         serviceRegistration = context.registerService(Configuration.class, configuration, serviceProperties);
     }
 
