@@ -49,7 +49,7 @@ import aQute.bnd.annotation.headers.ProvideCapability;
     value = ECMExtenderConstants.CAPABILITY_ATTR_CLASS + "=${@class}")
 @BooleanAttributes({
     @BooleanAttribute(attributeId = QuerydslConfigurationConstants.ATTR_USE_LITERALS,
-        defaultValue = false, priority = QuerydslConfigurationComponent.PRIORITY_USE_LITERALS_02,
+        defaultValue = false, priority = QuerydslConfigurationComponent.P02_USE_LITERALS,
         label = "Use literals",
         description = "Whether to use literals in SQL statements or not.") })
 @StringAttributes({
@@ -60,9 +60,9 @@ import aQute.bnd.annotation.headers.ProvideCapability;
             + "identify the service registered by this component.") })
 public class QuerydslConfigurationComponent {
 
-  public static final int PRIORITY_SQL_TEMPLATES_01 = 1;
+  public static final int P01_SQL_TEMPLATES = 1;
 
-  public static final int PRIORITY_USE_LITERALS_02 = 2;
+  public static final int P02_USE_LITERALS = 2;
 
   private ServiceRegistration<Configuration> serviceRegistration;
 
@@ -102,7 +102,7 @@ public class QuerydslConfigurationComponent {
   }
 
   @ServiceRef(attributeId = QuerydslConfigurationConstants.ATTR_SQL_TEMPLATES_TARGET,
-      defaultValue = "", attributePriority = PRIORITY_SQL_TEMPLATES_01,
+      defaultValue = "", attributePriority = P01_SQL_TEMPLATES,
       label = "SQLTemplates OSGi filter",
       description = "OSGi filter for the sqlTemplates reference that will be embedded into the "
           + "configuration.")
