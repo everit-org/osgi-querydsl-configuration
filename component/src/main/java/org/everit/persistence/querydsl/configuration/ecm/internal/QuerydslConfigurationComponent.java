@@ -56,7 +56,8 @@ import aQute.bnd.annotation.headers.ProvideCapability;
     @StringAttribute(attributeId = Constants.SERVICE_DESCRIPTION,
         defaultValue = QuerydslConfigurationConstants.DEFAULT_SERVICE_DESCRIPTION,
         label = "Service description",
-        description = "Optional description for the instantiated Jetty server.") })
+        description = "The description of this component configuration. It is used to easily "
+            + "identify the service registered by this component.") })
 public class QuerydslConfigurationComponent {
 
   public static final int PRIORITY_SQL_TEMPLATES_01 = 1;
