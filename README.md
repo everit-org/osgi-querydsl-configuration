@@ -1,4 +1,4 @@
-osg-querydsl-configuration
+querydsl-configuration-ecm
 ==========================
 
-Component that help registering Querydsl Configuration as OSGi service
+Component that help registering Querydsl Configuration as OSGi service.
