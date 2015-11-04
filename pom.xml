@@ -18,15 +18,15 @@
   <parent>
     <groupId>org.everit.config</groupId>
     <artifactId>org.everit.config.oss</artifactId>
-    <version>7.0.1</version>
+    <version>7.2.0</version>
   </parent>
 
   <groupId>org.everit.persistence</groupId>
-  <artifactId>org.everit.persistence.querydsl.configuration.ecm.parent</artifactId>
-  <version>1.0.0</version>
+  <artifactId>org.everit.persistence.querydsl.ecm.parent</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
 
   <packaging>pom</packaging>
-  <name>Everit - QueryDSL Configuration Parent</name>
+  <name>Everit - QueryDSL ECM Parent</name>
 
   <properties>
     <maven.site.skip>true</maven.site.skip>

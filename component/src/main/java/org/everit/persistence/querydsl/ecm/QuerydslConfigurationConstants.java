@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.everit.persistence.querydsl.configuration.ecm;
+package org.everit.persistence.querydsl.ecm;
 
 /**
  * Constants that make it possible to configure the Configuration component programmatically.
@@ -37,7 +37,7 @@ public final class QuerydslConfigurationConstants {
    * The name of the component.
    */
   public static final String SERVICE_FACTORYPID_QUERYDSL_CONFIGURATION =
-      "org.everit.persistence.querydsl.configuration.QuerydslConfiguration";
+      "org.everit.persistence.querydsl.ecm.QuerydslConfiguration";
 
   private QuerydslConfigurationConstants() {
   }
