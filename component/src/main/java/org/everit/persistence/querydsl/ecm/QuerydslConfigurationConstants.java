@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.everit.persistence.querydsl.configuration.ecm;
+package org.everit.persistence.querydsl.ecm;
 
 /**
  * Constants that make it possible to configure the Configuration component programmatically.

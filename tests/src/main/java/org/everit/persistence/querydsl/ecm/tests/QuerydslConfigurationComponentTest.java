@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.everit.persistence.querydsl.sqltemplates.osgi.ecm.tests;
+package org.everit.persistence.querydsl.ecm.tests;
 
 import org.everit.osgi.dev.testrunner.TestRunnerConstants;
 import org.everit.osgi.ecm.annotation.Component;
@@ -25,7 +25,7 @@ import org.everit.osgi.ecm.extender.ECMExtenderConstants;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.mysema.query.sql.Configuration;
+import com.querydsl.sql.Configuration;
 
 import aQute.bnd.annotation.headers.ProvideCapability;
 
