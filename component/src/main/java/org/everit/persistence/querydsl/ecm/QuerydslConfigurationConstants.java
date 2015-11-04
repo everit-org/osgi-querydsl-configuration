@@ -37,7 +37,7 @@ public final class QuerydslConfigurationConstants {
    * The name of the component.
    */
   public static final String SERVICE_FACTORYPID_QUERYDSL_CONFIGURATION =
-      "org.everit.persistence.querydsl.configuration.QuerydslConfiguration";
+      "org.everit.persistence.querydsl.ecm.QuerydslConfiguration";
 
   private QuerydslConfigurationConstants() {
   }

@@ -43,10 +43,10 @@ public final class SQLTemplatesConstants {
       "Default SQL Template Component";
 
   public static final String SERVICE_FACTORY_PID_AUTO_SQL_TEMPLATES =
-      "org.everit.persistence.querydsl.sqltemplates.AutoSQLTemplates";
+      "org.everit.persistence.querydsl.ecm.AutoSQLTemplates";
 
   public static final String SERVICE_FACTORY_PID_SQL_TEMPLATES =
-      "org.everit.persistence.querydsl.sqltemplates.SQLTemplates";
+      "org.everit.persistence.querydsl.ecm.SQLTemplates";
 
   private SQLTemplatesConstants() {
   }
